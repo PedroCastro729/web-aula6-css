@@ -1,1 +1,150 @@
-/*até o "about this item", copie o estilo e escolha um produto para ser utilizado com 4 imagens. vai ter que ser feito a mão, apague isso antes de entregar.*/
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Samsung Odyssey G9 OLED</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #1a1a1a;
+        }
+
+        .produto-container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #ffffff;
+            display: flex;
+            gap: 40px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .galeria {
+            flex: 1.2;
+        }
+
+        .foto-principal {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .lista-miniaturas {
+            display: flex;
+            gap: 10px;
+        }
+
+        .miniatura {
+            width: 25%;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+
+        .miniatura:hover {
+            border-color: #000;
+        }
+
+        .detalhes {
+            flex: 1;
+        }
+
+        .categoria {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0 0 15px 0;
+            font-weight: normal;
+        }
+
+        .preco {
+            font-size: 28px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            margin-bottom: 12px;
+            border: 1px solid #000;
+        }
+
+        .btn-escuro {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .btn-claro {
+            background-color: transparent;
+            color: #000;
+        }
+
+        .sobre-secao {
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .sobre-secao h3 {
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .sobre-secao p, .sobre-secao li {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="produto-container">
+    <div class="galeria">
+        <img src="https://t2.tudocdn.net/679459?w=1920&h=1440" alt="Samsung Odyssey G9 Principal" class="foto-principal">
+        <div class="lista-miniaturas">
+            <img src="https://img.global.news.samsung.com/br/wp-content/uploads/2023/08/Odyssey-OLED-G9_Top-Industry-Review_main1.jpg" class="miniatura">
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/br/ls49dg930slmzd/gallery/br-odyssey-oled-g9-g93sd-ls49dg930slmzd-551216080?$Q90_1248_936_F_PNG$" class="miniatura">
+            <img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_166633913/fee_786_587_png" class="miniatura">
+            <img src="https://samsungbrshop.vtexassets.com/arquivos/ids/233381/03-SA365_SMG_OdysseyG9_20230731.jpg?v=638774945973600000" class="miniatura">
+        </div>
+    </div>
+    <div class="detalhes">
+        <div class="categoria">Monitores Gaming Ultra-Wide</div>
+        <h1>Odyssey G9 OLED 49"</h1>
+        <div class="preco">R$ 11.999,00</div>
+        <button class="btn btn-escuro">Comprar Agora</button>
+        <button class="btn btn-claro">Adicionar ao Carrinho</button>
+        <div class="sobre-secao">
+            <h3>About this item</h3>
+            <p>
+                O Odyssey G9 OLED oferece uma experiência visual revolucionária com sua tela super ultra-wide de 49 polegadas. O design curvo 1800R preenche sua visão periférica, colocando você no centro da ação.
+            </p>
+            <ul>
+                <li>Tecnologia OLED com pretos perfeitos.</li>
+                <li>Taxa de atualização de 240Hz para fluidez máxima.</li>
+                <li>Tempo de resposta de 0.03ms (GtG).</li>
+                <li>DisplayHDR True Black 400.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
